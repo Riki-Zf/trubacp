@@ -11,7 +11,7 @@ export default function Footer() {
             {/* Logo */}
             <img src={logo} alt="Truba Jaga Cita Logo" className="w-36 md:w-40 object-contain" />
             {/* Sorowako Site */}
-            <span className="text-base md:text-lg font-medium text-gray-200 tracking-wide border-l border-gray-600 pl-4">Sorowako Site</span>
+            <span className="text-base md:text-lg font-medium text-gray-200 tracking-wide border-l border-gray-600 pl-4">Site Sorowako</span>
           </div>
           <p className="text-sm text-gray-400 leading-relaxed">Leading the mining industry with sustainable solutions and operational excellence across Indonesia.</p>
         </div>

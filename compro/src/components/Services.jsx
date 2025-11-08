@@ -7,18 +7,34 @@ export default function Services() {
   const services = [
     {
       number: "01",
-      title: "Lorem Ipsum",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure voluptatibus eos optio. Nesciunt.",
+      title: "Inspection",
+      description: "We provide inspection of the physical condition of equipment, machinery, and infrastructure to identify potential hazards, detect early damage, identify , and ensure compliance with safety standards.",
     },
     {
       number: "02",
-      title: "Lorem Ipsum",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure voluptatibus eos optio. Nesciunt.",
+      title: "Modification",
+      description: "We provide installation change to the design or configuration of equipment or systems to improve performance, capacity, or meet client standards.",
     },
     {
       number: "03",
-      title: "Lorem Ipsum",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure voluptatibus eos optio. Nesciunt.",
+      title: "Corrective Maintenance",
+      description: "We Provide repair activities carried out after damage to equipment or machinery to restore the function of the equipment or machine to its original condition so that the production process can continue",
+    },
+    {
+      number: "04",
+      title: "Overhaul",
+      description:
+        "We provide extensive repairs to equipment or machinery that involve disassembly, thorough inspection, replacement of damaged components, and reassembly in order to restore equipment to like-new condition and extend its service life.",
+    },
+    {
+      number: "05",
+      title: "Calibration",
+      description: "We provide adjustment measuring instruments and instruments to provide accurate measurement results to ensure that the measurement data obtained is accurate and reliable.",
+    },
+    {
+      number: "06",
+      title: "Preventive Maintenance",
+      description: "We provide services that are carried out regularly to prevent damage prevent unexpected breakdowns, extend equipment life, and improve production efficiency.",
     },
   ];
 

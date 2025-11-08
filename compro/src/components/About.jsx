@@ -43,11 +43,13 @@ export default function About() {
 
         {/* Content - Slide in from right */}
         <div className={`space-y-6 transition-all duration-1000 delay-300 transform ${isVisible ? "translate-x-0 opacity-100" : "translate-x-20 opacity-0"}`}>
-          <h2 className="text-4xl font-bold text-gray-900 transition-colors duration-300 hover:text-[#e83136]">Lorem ipsum dolor sit.</h2>
+          <h2 className="text-4xl font-bold text-gray-900 transition-colors duration-300 hover:text-[#e83136]">About Us</h2>
           <div className={`h-1 bg-[#e83136] rounded transition-all duration-1000 delay-500 ${isVisible ? "w-16" : "w-0"}`}></div>
 
           <p className={`text-lg text-gray-600 leading-relaxed transition-all duration-700 delay-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus excepturi asperiores consectetur fugiat facere tempore eum, ipsa reiciendis perferendis voluptatem obcaecati aspernatur quia!
+            Truba Jaga Cita is one company in the group of PT Tricipta Asia Makmur which operates in Sorowako. Business our company engaged in Operation & Maintenance includes several categories, such as industrial plant, cement plant,
+            mining plant, power plant and petrochemical plant. We also continue to strive to expand our business to all areas of Operation & Maintenance, both within the country and abroad. We are very confident, as more companies develop,
+            definitely in need of maintenance and development of their business, and we are ready to help, with the commitment of “Customer Satisfaction is the Number One”
           </p>
 
           <ul className="space-y-4">

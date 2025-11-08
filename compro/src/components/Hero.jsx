@@ -25,16 +25,19 @@ export default function Hero() {
       {/* Content - Slide in from left */}
       <div className="relative z-10 container mx-auto px-6 md:px-12 lg:px-20">
         <div className="max-w-lg">
-          <h1 className={`text-2xl md:text-4xl font-semibold leading-snug tracking-tight transition-all duration-1000 transform ${isLoaded ? "translate-x-0 opacity-100" : "-translate-x-20 opacity-0"}`} style={{ transitionDelay: "300ms" }}>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut nesciunt ut sequi recusandae minima adipisci.
+          <h1
+            className={`text-2xl md:text-4xl font-bold leading-snug text-[#e83136] tracking-tight transition-all duration-1000 transform ${isLoaded ? "translate-x-0 opacity-100" : "-translate-x-20 opacity-0"}`}
+            style={{ transitionDelay: "300ms" }}
+          >
+            Welcome to PT Truba Jaga Cita
           </h1>
 
-          <h2 className={`mt-3 text-2xl md:text-4xl font-bold text-[#e83136] transition-all duration-1000 transform ${isLoaded ? "translate-x-0 opacity-100" : "-translate-x-20 opacity-0"}`} style={{ transitionDelay: "500ms" }}>
-            Lorem
-          </h2>
+          {/* <h2 className={`mt-3 text-2xl md:text-4xl font-bold text-[#e83136] transition-all duration-1000 transform ${isLoaded ? "translate-x-0 opacity-100" : "-translate-x-20 opacity-0"}`} style={{ transitionDelay: "500ms" }}>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, velit cumque dolorem tenetur odit deserunt voluptates modi delectus fugiat? Adipisci, eum?
+          </h2> */}
 
           <p className={`mt-5 text-gray-300 text-sm md:text-base leading-relaxed transition-all duration-1000 transform ${isLoaded ? "translate-x-0 opacity-100" : "-translate-x-20 opacity-0"}`} style={{ transitionDelay: "700ms" }}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis molestias aperiam, voluptas hic cumque dolorem praesentium quae sed maxime veniam.
+            Our company focusing in plant services & construction industrial plant, cement plant, power plant, mining plant and petrochemical plant
           </p>
 
           <div className={`mt-8 transition-all duration-1000 transform ${isLoaded ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"}`} style={{ transitionDelay: "900ms" }}>

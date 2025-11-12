@@ -54,6 +54,9 @@ export default function Header() {
           <a href="#contact" className="text-sm font-medium hover:text-[#e83136] transition">
             Contact Us
           </a>
+          <a href="#Info" className="text-sm font-medium hover:text-[#e83136] transition">
+            Info
+          </a>
         </nav>
 
         {/* Tombol Menu Mobile */}
@@ -79,6 +82,9 @@ export default function Header() {
 
           <a href="#contact" className="block text-sm text-gray-300 hover:text-[#e83136] transition">
             Contact Us
+          </a>
+          <a href="#Info" className="block text-sm text-gray-300 hover:text-[#e83136] transition">
+            Info
           </a>
         </div>
       )}

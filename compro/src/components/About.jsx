@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-
+import imgL from "../assets/lamela.jpg";
 export default function About() {
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef(null);
@@ -34,8 +34,8 @@ export default function About() {
       <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
         {/* Image - Slide in from left */}
         <div className={`relative h-96 lg:h-full transition-all duration-1000 transform ${isVisible ? "translate-x-0 opacity-100" : "-translate-x-20 opacity-0"}`}>
-          <div className="absolute inset-0 bg-gradient-to-br from-[#e83136]/15 to-[#e83136]/5 rounded-lg overflow-hidden group">
-            <img src="/mining-safety-workers-operations.jpg" alt="Mining team at work" className="w-full h-full object-cover opacity-85 transition-transform duration-700 group-hover:scale-110" />
+          <div className="absolute inset-0 bg-linear-to-br from-[#e83136]/15 to-[#e83136]/5 rounded-lg overflow-hidden group">
+            <img src={imgL} alt="Mining team at work" className="w-full h-full object-cover opacity-85 transition-transform duration-700 group-hover:scale-110" />
             <div className="absolute inset-0 bg-[#e83136]/0 group-hover:bg-[#e83136]/10 transition-colors duration-500"></div>
           </div>
           <div className="absolute inset-0 border border-[#e83136]/25 rounded-lg group-hover:border-[#e83136]/50 transition-colors duration-500"></div>

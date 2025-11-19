@@ -127,7 +127,11 @@ export default function Rekrutmen() {
                 <h4 className="text-lg font-semibold text-[#e83136] mb-2 transition-colors duration-300 hover:text-[#cc262b]">{lowongan.title}</h4>
                 <p className="text-gray-600 text-sm mb-3">{lowongan.description}</p>
                 <p className="text-sm text-gray-500 mb-4">Lokasi: {lowongan.location}</p>
-                <a href="#" className="inline-block bg-[#e83136] hover:bg-[#c4282d] text-white text-sm font-medium px-5 py-2 rounded-md transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-[#e83136]/30">
+                <a
+                  href="https://forms.gle/Jvtg8wdivEVj7QGd9"
+                  target="_blank"
+                  className="inline-block bg-[#e83136] hover:bg-[#c4282d] text-white text-sm font-medium px-5 py-2 rounded-md transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-[#e83136]/30"
+                >
                   Lamar Sekarang
                 </a>
               </div>
